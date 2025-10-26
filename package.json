@@ -1,0 +1,31 @@
+{
+  "name": "simple-nodejs-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablodiloreto/the-weather-app.git"
+  },
+  "author": "Pablo Ariel Di Loreto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pablodiloreto/the-weather-app/issues"
+  },
+  "homepage": "https://github.com/pablodiloreto/the-weather-app#readme",
+  "dependencies": {
+    "axios": "1.7.9",
+    "body-parser": "^1.20.3",
+    "dotenv": "16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.7"
+  }
+}
